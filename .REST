@@ -1,0 +1,14 @@
+GET http://localhost:4000/forest
+
+###
+
+GET http://localhost:4000/hello
+
+###
+
+POST http://localhost:4000/hello HTTP/1.1
+content-type: application/json
+
+{
+  "message": "hello"
+}
